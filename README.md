@@ -1,6 +1,6 @@
 # Lane-And-Vehicle-Detection
 
-In this project I have used OpenCV and the [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) to identify the lane lines and other vehicles on the highway.
+In this project I have used OpenCV and the [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) to identify the lane lines and other vehicles on the highway. I have also attempted to measure the radius of curvature of the road and calculate how far the car has deviated from the center of the lane.
 
 ![output gif](./assets/output1.gif)
 
