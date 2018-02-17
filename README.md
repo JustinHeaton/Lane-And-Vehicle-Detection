@@ -17,6 +17,12 @@ This project requires python 3.5 and the following dependencies:
 - [MoviePy](http://zulko.github.io/moviepy/)
 - [TensorFlow](https://www.tensorflow.org/)
 
+##### Object Detection Model:
+
+Download one of the pretrained models from [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). For faster processing I recommend one of the SSD models. 
+
+*Note:* You may need to adjust line 306 in `main.py` depending one which model you use and where you save it.
+
 ##### Run:
 
 The script `main.py` takes 3 arguments: MODE, INPUT, OUTPUT.
