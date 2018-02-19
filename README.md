@@ -21,7 +21,7 @@ This project requires python 3.5 and the following dependencies:
 
 Download one of the pretrained models from [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). For faster processing I recommend one of the SSD models. 
 
-*Note:* You may need to adjust line 306 in `main.py` depending one which model you use and where you save it.
+*Note:* You may need to modify line 306 in `main.py` depending on which model you use and where you save it.
 
 ##### Run:
 
